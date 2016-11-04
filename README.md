@@ -1,10 +1,11 @@
 # ZamasuSearch
-Zamasu Search is a Python GUI Based for Searching Exploit from exploit-database.com
+Zamasu Search is a Python GUI Based for Searching Exploit from exploit-db.com repository
 
 ## Install
 ```
 git clone https://github.com/aancw/ZamasuSearch.git
 cd ZamasuSearch
+pip install -r requirements.txt
 python ZamasuSearch.py
 ```
 ## Dependency
