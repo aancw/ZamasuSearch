@@ -197,6 +197,9 @@ class Ui_MainZamasu(object):
 
                     if mANDMode and mORMode:
                         QtWidgets.QMessageBox.about(MainZamasu, "Info", "Can't search with 2 parameter, please choose AND or OR mode")
+                    elif mORMode:
+                        if(mDesc == nDesc) or (mPlatform == nPlatform) or (mType == nType) or (mAuthor == nAuthor):
+                            self.addDataToRows(nId, nDescReal, nDate, nAuthorReal, nPlatform, nType, nPort, nFile)
                     elif mANDMode:
                         """
                             We need separate search category with 2 phase, i think Platform and type is optional.
