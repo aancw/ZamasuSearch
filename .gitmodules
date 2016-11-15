@@ -1,3 +1,0 @@
-[submodule "exploit-database"]
-	path = exploit-database
-	url = https://github.com/offensive-security/exploit-database/
